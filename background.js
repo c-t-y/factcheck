@@ -4,7 +4,7 @@ const CONTEXT_MENU_ID = "repeat-text-context-menu";
 // Create the context menu item
 chrome.contextMenus.create({
   id: CONTEXT_MENU_ID,
-  title: "Repeat Text",
+  title: "Fact Check",
   contexts: ["selection"],
 });
 
