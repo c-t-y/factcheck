@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Fact Check With ChatGPT",
+    "version": "1.0.0",
+    "description": "Fact Check With ChatGPT",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "contextMenus",
+      "activeTab"
+    ]
+  }
+  
